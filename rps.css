@@ -5,6 +5,14 @@
 }
 body{
     background-color: rgb(25, 25, 25);
+    padding-top: 100px;
+}
+
+.box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 .btn{
     background: transparent;
@@ -12,6 +20,7 @@ body{
     border-radius: 50%;
     padding: 20px;
     margin-right: 50px;
+    cursor: pointer;
 }
 .move{
     color: white;

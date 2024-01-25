@@ -9,13 +9,17 @@
 </head>
 
 <body>
-    <button onclick="play('Rock')" class="btn"><img src="Pictures/Rock.png"class="image"></button>
-    <button onclick="play('Paper')" class="btn"><img src="Pictures/Paper.png" class="image"></button>
-    <button onclick="play('Scissors')" class="btn"><img src="Pictures/Scissors.png" class="image"></button>
-    <p class="result"></p>
-    <p class="move"></p>
-    <p class="score"></p>
-    <button class="reset">Reset Score</button>
+    <div class="box">
+        <div>
+            <button onclick="play('Rock')" class="btn"><img src="Pictures/Rock.png" class="image"></button>
+            <button onclick="play('Paper')" class="btn"><img src="Pictures/Paper.png" class="image"></button>
+            <button onclick="play('Scissors')" class="btn"><img src="Pictures/Scissors.png" class="image"></button>
+        </div>
+        <p class="result"></p>
+        <p class="move"></p>
+        <p class="score"></p>
+        <button class="reset">Reset Score</button>
+    </div>
     <script src="rps.js">
 
     </script>

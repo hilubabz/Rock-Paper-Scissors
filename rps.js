@@ -62,7 +62,7 @@ function play(user_choice) {
         } else {
            
             score.win++;
-            reset.innerHTML='You Win'
+            result.innerHTML='You Win'
             displayScore(user_choice,comp_choice)
         }
     }
@@ -76,7 +76,7 @@ function play(user_choice) {
         else {
         
             score.loss++;
-            reset.innerHTML="You Lose"
+            result.innerHTML="You Lose"
             displayScore(user_choice,comp_choice)
         }
     }
