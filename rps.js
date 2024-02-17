@@ -16,7 +16,7 @@ reset.addEventListener('click',function(){
     
     
     function displayScore(user_choice,comp_choice) {
-        move.innerHTML = `User <img src="Pictures/${user_choice}.png" class="image"> - <img src="Pictures/${comp_choice}.png" class="image"> Computer`
+        move.innerHTML = `User <img src="Pictures/${user_choice}.png" class="image"> - <img src="Pictures/${comp_choice}.png" class="image"> Juyal`
         scoreCount.innerText = "Win:" + score.win + " Tie:" + score.draw + " Loss:" + score.loss
     }
 function play(user_choice) {
