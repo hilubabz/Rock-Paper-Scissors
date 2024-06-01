@@ -88,4 +88,5 @@ function resetScore(){
     score.loss=0
     score.draw=0
     localStorage.removeItem('score');
+    scoreCount.innerText = "Win:" + score.win + " Tie:" + score.draw + " Loss:" + score.loss
 }
